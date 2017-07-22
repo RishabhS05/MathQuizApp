@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MathQuizApp</string>
+    <string name="disp_question1">Question 1</string>
+    <string name="disp_question2">Question 2</string>
+    <string name="disp_question3">Question 3</string>
+    <string name="disp_question4">Question 4</string>
+    <string name="disp_question5">Question 5</string>
+    <string name="disp_question6">Question 6</string>
+    <string name="question_1">How much time will it take for an amount of Rs. 450 to yield Rs. 81 as interest at 4.5% per annum of simple interest?</string>
+    <string name="question_2">A train can travel 50% faster than a car. Both start from point A at the same time and reach point B 75 kms away from A at the same time. On the way, however, the train lost about 12.5 minutes while stopping at the stations. The speed of the car is:</string>
+    <string name="question_3">In how many ways a committee, consisting of 5 men and 6 women can be formed from 8 men and 10 women?</string>
+    <string name="question_4">The speed of a boat in still water in 15 km/hr and the rate of current is 3 km/hr. The distance travelled downstream in 12 minutes is:</string>
+    <string name="question_5">The H.C.F. of two numbers is 23 and the other two factors of their L.C.M. are 13 and 14. The larger of the two numbers is:</string>
+    <string name="question_6">Which of these numbers are divisible by 867?</string>
+    <string name="q1_opt1">3.5 years</string>
+    <string name="q1_opt2">4 years</string>
+    <string name="q1_opt3">4.5 years</string>
+    <string name="q1_opt4">5 years</string>
+    <string name="q2_opt1">100 kmph</string>
+    <string name="q2_opt2">110 kmph</string>
+    <string name="q2_opt3">120 kmph</string>
+    <string name="q2_opt4">130 kmph</string>
+    <string name="q3_opt1">266</string>
+    <string name="q3_opt2">	5040</string>
+    <string name="q3_opt3">11760</string>
+    <string name="q3_opt4">86400</string>
+    <string name="q4_opt1">1.2 km</string>
+    <string name="q4_opt2">	1.8 km</string>
+    <string name="q4_opt3">2.4 km</string>
+    <string name="q4_opt4">3.6 km</string>
+    <string name="q6_opt1">65487</string>
+    <string name="q6_opt2">	13005</string>
+    <string name="q6_opt3">256743</string>
+    <string name="q6_opt4">7803</string>
+    <string name="reset">reset</string>
+    <string name="submit">submit</string>
+    <string name="data_field_empty_error">Please make sure you answer all the questions</string>
+    <string name="welcome_to_maths_quiz_app">Welcome to Maths Quiz App</string>
+</resources>
+
+
+
