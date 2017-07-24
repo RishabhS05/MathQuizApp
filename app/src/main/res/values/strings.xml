@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MathQuizApp</string>
+    <string name="app_name">MathsQuizApp</string>
     <string name="disp_question1">Question 1</string>
     <string name="disp_question2">Question 2</string>
     <string name="disp_question3">Question 3</string>

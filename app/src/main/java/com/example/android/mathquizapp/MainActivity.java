@@ -13,9 +13,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText edtForQ5;
     private RadioGroup mRadioGroup1, mRadioGroup2, mRadioGroup3, mRadioGroup4;
     private CheckBox mCheckBox1, mCheckBox2, mCheckBox3, mCheckBox4;
-    int scoreQ1, scoreQ2, scoreQ3, scoreQ4, scoreQ5, scoreQ6, totalscore;
-    private boolean checked1, checked2, checked3, checked4, checked5, checked6;
-    private String answer5;
+    int scoreQ1, scoreQ2, scoreQ3, scoreQ4, scoreQ5, scoreQ6, totalScore;
+    private boolean checked1, checked2, checked3, checked4, checked6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.button4_4:
                 scoreQ4 = 20;
                 break;
-
         }
     }
 
@@ -149,14 +147,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickSubmit(View view) {
-        answer5 = edtForQ5.getText().toString();
+        String answer5 = edtForQ5.getText().toString();
         if (checked1 && checked2 && checked3 && checked4 && checked6 && !answer5.equals("")) {
             if (answer5.equals("322"))
                 scoreQ5 = 20;
             else scoreQ5 = 0;
-
-            totalscore = scoreQ1 + scoreQ2 + scoreQ3 + scoreQ4 + scoreQ5 + scoreQ6;
-            String total = "Your score is " + totalscore + "/120";
+            totalScore = scoreQ1 + scoreQ2 + scoreQ3 + scoreQ4 + scoreQ5 + scoreQ6;
+            String total = "Your score is " + totalScore + "/120";
             Toast.makeText(this, total, Toast.LENGTH_SHORT).show();
         } else
             Toast.makeText(this, getString(R.string.data_field_empty_error), Toast.LENGTH_SHORT).show();
